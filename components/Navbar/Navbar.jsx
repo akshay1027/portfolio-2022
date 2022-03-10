@@ -30,18 +30,6 @@ const Navbar = () => {
         <li className="mx-3 hover:underline">
           <NavLink href="/resume">Resume</NavLink>
         </li>
-        <li className="mx-3 hover:underline">
-          <NavLink href="/talks">Talks</NavLink>
-        </li>
-        <li className="mx-3 hover:underline">
-          <a
-            href="https://sohamsshah.hashnode.dev/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Blog
-          </a>
-        </li>
         <li>
           <DarkModeToggleButton />
         </li>

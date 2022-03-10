@@ -8,7 +8,7 @@ const DarkModeToggleButton = () => {
       <button
         aria-label="Toggle Dark Mode"
         type="button"
-        className="text-2xl mx-2 order-2 md:order-3"
+        className="text-2xl mx-2 mt-1 order-2 md:order-3"
         onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
       >
         {theme === "dark" ? <MdiWeatherSunny /> : <MdiMoonWaningCrescent />}

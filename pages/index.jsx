@@ -17,29 +17,29 @@ export default function Home() {
           <Navbar />
           <div className="text-gray-600 dark:text-gray-400">
             <div className="mt-2 border-b-2">
-              <h1 className="text-6xl font-bold pb-6 text-gray-900 dark:text-gray-200">
-                Akshay R R 👋
+              <h1 className="text-2xl md:text-5xl font-bold pb-6 text-blue-400 dark:text-blue-400">
+                Akshay R R 🖤🚀⚽
               </h1>
               <p className="text-xl pb-4">
-                Hey, there! Welcome to my Website. I am Akshay R R - Software
-                Engineer based in India.
-              </p>
-              <p className="text-xl">
-                I am a final year student at Adani Institute, currently pursuing
-                Information and Communication Technology Engineering.
+                Hey, there! Welcome to my Website 🤟
               </p>
               <p className="text-xl pb-4">
-                My experience revolves around developing full-stack
-                applications, frontend web-tooling, npm-packages and libraries
-                and design systems. I also have research exposure in the areas
-                of articifial intelligence and robotics and published patent and
-                research work around it.
+                I am Akshay, a software engineer based from Puducherry, India. A 3rd year student at Puducherry Technology Univeristy, currently pursuing
+                Electronics and Communication Engineering.
               </p>
               <p className="text-xl pb-4">
-                I have been involved with Google Developer Student Clubs- GHRCE
-                and Adani Institute of Innovation Hub (AIIH) and have organized
-                workshops, talks and hackathons for the community. I am also a
-                passionate open source contributor and tech speaker.
+                My experience revolves around developing end-to-end full stack
+                applications using JavaScript and Python as my base language.
+                I write clean, modular, maintainable, and scalable code, thinking about various edge cases before pushing to production!
+              </p>
+              <p className="text-xl pb-4">
+                I strongly believe in using the right tools/languages for the given task, always ready to upskill myself!
+              </p>
+              <p className="text-xl pb-4">
+                Am an extremely motivated person and constantly want to expose myself to unfamiliar situations, which would help me to grow my technical nuance.
+              </p>
+              <p className="text-xl pb-4">
+                Love to expland my knowledge in software development field, play football, sports in general and spend time with my friends and family.
               </p>
               <p className="text-lg pb-10">
                 <Link href="/about">
@@ -54,23 +54,19 @@ export default function Home() {
               <ul className="text-xl pb-4">
                 <li className="my-2">
                   <span className="underline">Languages</span>: JavaScript,
-                  TypeScript, Java, Python, HTML5, CSS3{" "}
+                  TypeScript, Python, C++, HTML5, CSS3{" "}
                 </li>
                 <li className="my-2">
                   <span className="underline">Frameworks and Libraries</span>:
-                  React.js, Next, Node, Express, Tensorflow, OpenCV
+                  NodeJS, ExpressJS, Mongoose,
+                  Django(DRF), ReactJS, NextJS, Axios, Material-UI, TailwindCSS
                 </li>
                 <li className="my-2">
-                  <span className="underline">Platforms</span>: Git (Github and
-                  Gitlab), Heroku, AWS, Google Firebase
+                  <span className="underline">Tools</span>: Docker, Git (Github and
+                  Gitlab), Heroku, Github Desktop,
                 </li>
                 <li className="my-2">
-                  <span className="underline">Database</span>: MongoDB, SQL,
-                  PostgreSQL
-                </li>
-                <li className="my-2">
-                  <span className="underline">Design Libraries</span>:
-                  TailwindCSS, Bootstrap, MaterialUI, AntDesign
+                  <span className="underline">Database</span>: MongoDB, PostgreSQL
                 </li>
               </ul>
               <p className="text-lg pb-10">
@@ -79,7 +75,7 @@ export default function Home() {
                 </Link>
               </p>
             </div>
-            <div className="border-b-2">
+            {/* <div className="border-b-2">
               <p className="text-3xl pb-2 pt-10 text-gray-900 dark:text-gray-200 font-bold">
                 Recent Tech Talks 🎙
               </p>
@@ -189,7 +185,7 @@ export default function Home() {
                   Learn More...
                 </a>
               </p>
-            </div>
+            </div> */}
           </div>
         </div>
         <Footer />

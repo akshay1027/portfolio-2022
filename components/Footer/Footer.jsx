@@ -13,8 +13,8 @@ const Footer = () => {
         <ul className="flex text-3xl">
           <li className="m-2">
             <a
-              className="hover:text-blue-900"
-              href="https://twitter.com/sohamsshah_"
+              className="hover:text-blue-500"
+              href="https://twitter.com/akshay_rr27"
               target="_blank"
               rel="noreferrer"
             >
@@ -23,8 +23,8 @@ const Footer = () => {
           </li>
           <li className="m-2">
             <a
-              className="hover:text-blue-900"
-              href="https://github.com/sohamsshah"
+              className="hover:text-blue-500"
+              href="https://github.com/akshay1027"
               target="_blank"
               rel="noreferrer"
             >
@@ -33,8 +33,8 @@ const Footer = () => {
           </li>
           <li className="m-2">
             <a
-              className="hover:text-blue-900"
-              href="https://www.linkedin.com/in/sohamshah456/"
+              className="hover:text-blue-500"
+              href="https://www.linkedin.com/in/akshayrr1027/"
               target="_blank"
               rel="noreferrer"
             >
@@ -43,8 +43,8 @@ const Footer = () => {
           </li>
           <li className="m-2">
             <a
-              className="hover:text-blue-900"
-              href="mailto:sohamshah456@gmail.com"
+              className="hover:text-blue-500"
+              href="mailto:akshayar1027@gmail.com"
               target="_blank"
               rel="noreferrer"
             >
@@ -57,7 +57,7 @@ const Footer = () => {
           <div>
             •{" "}
             <Link href="/">
-              <a>Soham 👨‍💻</a>
+              <a>Akshay RR 👨‍💻</a>
             </Link>
           </div>
         </div>
